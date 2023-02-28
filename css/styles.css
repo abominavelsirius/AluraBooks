@@ -1,11 +1,15 @@
+@import url("./header.css"); /* pra não encher o HTML e ser mais rápido o carregamento da página */
+
+
+
 :root {
     --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
 }
 
 body {
-    background-color: var(--cor-de-fundo);
+    background: black;
 }
 
-h1 {
-    
-}
+
+
