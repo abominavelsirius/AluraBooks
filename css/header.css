@@ -39,6 +39,32 @@
     display: block;
 }
 
+.lista-menu__titulo, .lista-menu__item {
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.lista-menu__link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    width: 60vh;    
+}
+
+.container__botao {
+    display: none;
+}
+
+
+
+
 /*
 
 checked = detecta se tá preenchida a input checkbox
@@ -52,3 +78,8 @@ se o container tiver checked, ele vai procurar outro que venha depois dele com
 a classe lista-menu  e vai por display block nele, se não tiver, faz nada.
 e também se não tivesse no checked, ia fazer nada.
     */
+
+
+    /* ================================================================= */
+
+    
