@@ -33,10 +33,29 @@
    display: none;
    position: absolute; /* permite que movimente seu elemento de acordo com o pai que teve a position sem static */
    top: 100%; /* ou seja, tirou 100% di cabeçalho e ficou pra baixo */
+   width: 60vw;
 }
 
 .container__botao:checked~.lista-menu {
     display: block;
+}
+
+.lista-menu__titulo,
+.lista-menu__item {
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu__titulo {
+    color: var(--laranja);
+}
+
+.lista-menu__link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
 }
 
 
