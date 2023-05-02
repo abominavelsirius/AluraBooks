@@ -14,6 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative; /* libera a opção de por top, left, bottom, up */
 }
 
 .container {
@@ -29,12 +30,28 @@
 
 
 .lista-menu {
-   
+   display: none;
+   position: absolute; /* permite que movimente seu elemento de acordo com o pai que teve a position sem static */
+   top: 100%; /* ou seja, tirou 100% di cabeçalho e ficou pra baixo */
+}
+
+.container__botao:checked~.lista-menu {
+    display: block;
 }
 
 
 
+
+
 /*
+
+.lista-menu {
+   display: none;
+}
+
+.container__botao:checked~.lista-menu {
+    display: block;
+}
 
 checked = detecta se tá preenchida a input checkbox
 
