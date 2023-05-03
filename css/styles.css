@@ -1,5 +1,6 @@
 @import url("./header.css"); /* pra não encher o HTML e ser mais rápido o carregamento da página */
 @import url("./banner.css");
+@import url("./carrosel.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 /* font-family: 'Poppins', sans-serif; */
@@ -16,7 +17,7 @@
 }
 
 body {
-    background: black;
+    /* background: black; */
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
